@@ -1,0 +1,12 @@
+{
+    "framework": "nextjs",
+    "regions": [
+        "iad1"
+    ],
+    "crons": [
+        {
+            "path": "/api/cron/deployer-check",
+            "schedule": "0 * * * *"
+        }
+    ]
+}
